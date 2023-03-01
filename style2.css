@@ -1,0 +1,140 @@
+body {
+    background-color: #0D192C;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    max-width: 302px;
+    padding: 24px;
+    border-radius: 15px;
+    background-color: #15263F;
+
+    position: relative;
+
+
+
+    /* margin-right: 545px;
+    margin-left: 545px;
+    margin-top: 152px;
+    margin-bottom: 152px; */
+
+
+
+    /* position: absolute; */
+}
+
+section {
+    border-radius: 8px;
+
+}
+
+
+.eye-conteiner {
+    position: absolute;
+    top: 24px;
+    background: hsl(178, 100%, 50%, 50%);
+    opacity: 1;
+    width: 302px;
+    height:302px;
+    opacity:0;
+
+}
+.eye-conteiner:hover{
+    opacity:1;
+    transition-duration: 3s;
+}
+
+.eye {
+    position: absolute;
+    top: 50%;
+    right:50%;
+    transform: translate(24px, -24px);
+
+}
+
+
+h1 {
+    font-family: outfit;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+
+}
+
+h1:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
+
+h2 {
+    font-family: outfit;
+    font-weight: 300;
+    font-size: 18px;
+    color: #8BACD9;
+}
+
+.icon {
+    font-size: 16px;
+    font-family: outfit;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ETH {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 9px;
+    color: #00FFF8;
+    font-weight: 600;
+}
+
+.clock {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    gap: 9px;
+    color: #8BACD9;
+    font-weight: 400;
+}
+
+.avatar {
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid #2E405A;
+    gap: 5px;
+}
+
+
+.avatar-image {
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-top: 16px;
+    margin-right: 16px;
+
+}
+
+.name {
+    color: #8BACD9;
+    display: flex;
+    font-size: 16px;
+    margin-top: 22px;
+    gap: 5px;
+
+}
+
+.Author {
+    color: white;
+    margin-top: 22px;
+}
+
+
+.Author:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
